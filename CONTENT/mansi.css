@@ -1,0 +1,49 @@
+/* JAI SHREE RAM */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    min-height: 100vh;
+    background: #040124;
+ 
+
+
+}
+.container .img{
+    background: url(mansi.png);
+    height: 900px;
+    width: 1600px;
+    position: fixed;
+    border-top: 0px;
+    background-size: cover;
+    background-position: center;
+}
+.container .overlay{
+    height: 900px;
+    opacity: 0.5;
+    width: 1600px;
+    background: linear-gradient(to bottom,rgba(240, 66, 66, 0.646),rgb(42, 42, 254));
+    position: fixed;
+}
+.text{
+    z-index: 2;
+    color: white;
+    font-size: 30px;
+}
+.content{
+    text-align: center;
+}
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff00;
+    font-size: 24px;
+    border: 2px solid #ffffff3f;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 50;
+}
+

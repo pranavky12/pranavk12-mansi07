@@ -1,0 +1,47 @@
+/* JAI SHREE RAM */
+*{
+    margin: 0;
+    padding: 0;
+}
+.vishnuji{
+    display: flex;
+    min-height: 100vh;
+    background: #040124;
+ 
+   
+
+}
+.vishnuji .brahmaji{
+    background: url(BOYWAITING.jpg);
+    height: 900px;
+    width: 1600px;
+    position: fixed;
+    border-top: 0px;
+    background-size: cover;
+    background-position: center;
+}
+.vishnuji .brahman{
+    height: 900px;
+    opacity: 0.5;
+    width: 1600px;
+    background: linear-gradient(to bottom,rgba(248, 248, 248, 0.068),rgba(6, 6, 6, 0.21));
+    position: fixed;
+}
+.baghabirbabaji{
+    z-index: 2;
+    color: black;
+    font-size: 30px;
+}
+.sayedbabaji{
+    text-align: center;
+}
+.sayedbabaji a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 50;
+}
